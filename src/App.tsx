@@ -22,7 +22,7 @@ const Navbar = ({ activeSection }: { activeSection: Section }) => {
     <header className="fixed top-0 w-full z-50 glass-header border-b border-primary/5">
       <nav className="flex justify-between items-center px-8 py-6 max-w-screen-2xl mx-auto">
         <div className="text-2xl font-headline italic text-primary flex items-center gap-2 tracking-wide">
-          <img src="../public/favicon.png" className="w-7 h-6" />
+          <img src="/favicon.png" className="w-7 h-6" />
           Deuxcerie
         </div>
         <div className="hidden md:flex items-center gap-10 font-light text-xs tracking-[0.2em] uppercase">
@@ -84,7 +84,7 @@ const Hero = () => (
       >
         <div className="relative z-10 rounded-2xl shadow-2xl transform rotate-2 border-[12px] border-white/10">
           <img
-            src="../public/candle_cake.png"
+            src="/candle_cake.png"
             alt="Bolo artesanal Deuxcerie"
             className="w-full h-[500px] object-contain bg-white/10"
           />
@@ -147,7 +147,7 @@ const About = () => (
           className="relative"
         >
           <img
-            src="../public/moon_cake.png"
+            src="/moon_cake.png"
             alt="Detalhe de confeitaria artesanal"
             loading="lazy"
             className="rounded-2xl shadow-xl w-full aspect-[4/5] object-cover"
