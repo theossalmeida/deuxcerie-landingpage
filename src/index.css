@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Noto Serif", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-primary: #5F0D28;
+  --color-primary-dark: #3E0015;
+  --color-secondary: #8C4A5E;
+  --color-accent: #991C33;
+  --color-cream: #FFF7EE;
+  --color-surface: #FFF8F2;
+  --color-on-surface: #1E1B16;
+  --color-on-surface-variant: #554245;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-on-surface font-sans antialiased;
+  }
+  button {
+    cursor: pointer;
+  }
+}
+
+.glass-header {
+  background: rgba(255, 247, 238, 0.8);
+  backdrop-filter: blur(12px);
+}
+
+.bg-brand-gradient {
+  background: linear-gradient(135deg, #5F0D28 0%, #991C33 100%);
+}
+
